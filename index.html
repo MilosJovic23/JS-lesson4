@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<h1 id="naslovSajta">ada</h1>
+
+		<p class="tekstSajta">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minus
+			nihil tempora harum placeat exercitationem quam, blanditiis nulla
+			consectetur officiis alias fugit quod tenetur cumque assumenda iusto quo
+			ipsa impedit?
+		</p>
+		<p class="tekstSajta">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed culpa non,
+			eligendi fuga in eos minima quos atque ullam magni accusantium nostrum
+			neque quod, error, soluta voluptates! Dignissimos, accusantium
+			repudiandae.
+		</p>
+		<button onclick="this.innerHTML=Date()">Koliko je sati?</button>
+
+		<div
+			onmouseover="this.style.backgroundColor='red'"
+			style="background-color: blue"
+			style="height: 250px"
+			style="width: 200px"
+		>
+			Nesto
+		</div>
+		<button onclick="displayDate()">Time is?</button>
+		<h3 id="demo1" style="color: blue"></h3>
+		<script>
+			function displayDate() {
+				document.getElementById("demo1").innerHTML = Date();
+			}
+		</script>
+		<script src="script.js"></script>
+	</body>
+</html>
